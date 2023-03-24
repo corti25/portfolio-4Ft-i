@@ -1,0 +1,94 @@
+@import "./colors.scss";
+
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: $black;
+  color: $white;
+
+  .footer-container{
+    display: flex;
+    max-width: 1110px;
+    justify-content: space-around;
+    margin: auto;
+  }
+
+}
+
+.app-navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    .navbar-items{
+      display: flex;
+      list-style: none;
+      gap:2rem;
+  
+
+    .nav-Links{
+      text-decoration: none;
+      color: blanchedalmond;
+      
+  
+
+      &:hover{
+        color : $white;
+        font-size: 20px;
+      }
+    } 
+  } 
+}
+
+// classi con .nomeClasse
+.section{
+  background-color: rgb(32, 17, 102);
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item{
+  background-color: fuchsia;
+  max-width: 20rem;
+  img{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .item-text{
+    padding: 1.5rem;
+  }
+}
+
+
+// id con cancelletto 
+#home{
+  flex-grow: 1;
+}
+
+.swiper-slide{
+  height: 30rem !important;
+  width: 1275px;
+  background-position: center ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
